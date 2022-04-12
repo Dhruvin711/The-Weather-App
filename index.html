@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+
+  <!-- Fevicon -->
+  <link rel="shortcut icon" href="img/icon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <div class="card-page">
+
+    <div class="card">
+
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Enter City Name">
+        <button class="btn" type="button" name="button">Search</button>
+      </div>
+
+      <div class="weather-icon">
+        <img src="img/weather.png" alt="">
+      </div>
+
+      <div class="weather">
+        <h2 class="city">Weather in --</h2>
+        <h1 class="temp">-- °C</h1>
+        <div class="flex">
+          <div class="description">--</div>
+          <img class="icon" src="https://openweathermap.org/img/wn/04n.png" alt="">
+        </div>
+        <div class="humidity">humidity: -- %</div>
+        <div class="wind">Wind Speed: -- km/h</div>
+      </div>
+      <p style="opacity: .3; padding: 0; margin: 30px 0 0;">(Refresh the page for change the background image)</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Handcrafted by DHRUVIN PRAJAPATI</p>
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
